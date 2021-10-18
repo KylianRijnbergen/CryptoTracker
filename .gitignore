@@ -1,0 +1,5 @@
+coinmarketcapapi.py
+holdings.txt
+.idea/
+__pycache__/
+venv/
