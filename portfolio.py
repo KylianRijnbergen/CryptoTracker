@@ -25,7 +25,14 @@ class Portfolio:
                 holdings[coin] = balance
         return holdings
 
+    def get_value(self):
+        value = 0
+        for coin in self.balance.keys():
+            c = Coin(coin)
+            coinval = c.get_current_price() * self.balance[coin]
+            value += coinval
+        return round(value,2)
+
 
 if __name__ == "__main__":
-    p = Portfolio()
-    print(p.balance)
+    pass
