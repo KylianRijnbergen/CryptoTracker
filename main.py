@@ -1,5 +1,7 @@
+from portfolio import Portfolio
 def main():
-    pass
+    p = Portfolio()
+    print(f"Your portfolio is worth {p.get_value()} EUR.")
 
 
 
