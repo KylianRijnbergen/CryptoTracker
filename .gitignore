@@ -1,5 +1,4 @@
-coinmarketcapapi.py
-holdings.txt
+myholdings.csv
 .idea/
 __pycache__/
 venv/
